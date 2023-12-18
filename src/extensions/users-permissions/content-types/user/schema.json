@@ -67,6 +67,11 @@
     },
     "fullName": {
       "type": "string"
+    },
+    "galleries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::gallery.gallery"
     }
   }
 }
