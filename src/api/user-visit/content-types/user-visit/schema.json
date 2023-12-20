@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "twitter_users",
+  "collectionName": "user_visits",
   "info": {
-    "singularName": "twitter-user",
-    "pluralName": "twitter-users",
-    "displayName": "TwitterUser",
-    "description": ""
+    "singularName": "user-visit",
+    "pluralName": "user-visits",
+    "displayName": "userVisit"
   },
   "options": {
     "draftAndPublish": true
@@ -14,8 +13,10 @@
   "attributes": {
     "username": {
       "type": "string",
-      "unique": true,
       "required": true
+    },
+    "galleryId": {
+      "type": "string"
     }
   }
 }

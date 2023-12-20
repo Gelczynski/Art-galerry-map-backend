@@ -4,15 +4,25 @@
   "info": {
     "singularName": "gallery",
     "pluralName": "galleries",
-    "displayName": "Gallery"
+    "displayName": "Gallery",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "openingHours": {
+      "type": "json"
+    },
+    "coordinate": {
+      "type": "json"
     }
   }
 }

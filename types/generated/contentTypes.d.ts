@@ -368,12 +368,16 @@ export interface ApiGalleryGallery extends Schema.CollectionType {
     singularName: 'gallery';
     pluralName: 'galleries';
     displayName: 'Gallery';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    name: Attribute.String;
+    title: Attribute.String;
+    address: Attribute.String;
+    openingHours: Attribute.JSON;
+    coordinate: Attribute.JSON;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -405,11 +409,6 @@ export interface ApiTwitterUserTwitterUser extends Schema.CollectionType {
   };
   attributes: {
     username: Attribute.String & Attribute.Required & Attribute.Unique;
-    galleries: Attribute.Relation<
-      'api::twitter-user.twitter-user',
-      'oneToMany',
-      'api::gallery.gallery'
-    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -421,6 +420,37 @@ export interface ApiTwitterUserTwitterUser extends Schema.CollectionType {
       Attribute.Private;
     updatedBy: Attribute.Relation<
       'api::twitter-user.twitter-user',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiUserVisitUserVisit extends Schema.CollectionType {
+  collectionName: 'user_visits';
+  info: {
+    singularName: 'user-visit';
+    pluralName: 'user-visits';
+    displayName: 'userVisit';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    username: Attribute.String & Attribute.Required;
+    galleryId: Attribute.String;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::user-visit.user-visit',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::user-visit.user-visit',
       'oneToOne',
       'admin::user'
     > &
@@ -682,11 +712,6 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
       'plugin::users-permissions.role'
     >;
     fullName: Attribute.String;
-    galleries: Attribute.Relation<
-      'plugin::users-permissions.user',
-      'oneToMany',
-      'api::gallery.gallery'
-    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
@@ -760,6 +785,7 @@ declare module '@strapi/types' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'api::gallery.gallery': ApiGalleryGallery;
       'api::twitter-user.twitter-user': ApiTwitterUserTwitterUser;
+      'api::user-visit.user-visit': ApiUserVisitUserVisit;
       'plugin::upload.file': PluginUploadFile;
       'plugin::upload.folder': PluginUploadFolder;
       'plugin::users-permissions.permission': PluginUsersPermissionsPermission;
