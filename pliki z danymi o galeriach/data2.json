@@ -1,0 +1,155 @@
+[
+  {
+    "title": "Galeria Domu Artysty Plastyka",
+    "address": "Mazowiecka 11 A, 00-052 Warszawa, Polska",
+    "coordinate": { "latitude": 52.237742, "longitude": 21.0126819 },
+    "openingHours": [{ "days": "sb-nd", "hours": "12:00-16:00" }]
+  },
+  {
+    "title": "Mazowiecki Dom Aukcyjny Teutsch Gallery",
+    "address": "Mazowiecka 11, 00-052 Warszawa, Polska",
+    "coordinate": { "latitude": 52.2374666, "longitude": 21.0128699 },
+    "openingHours": [
+      { "days": "pn", "hours": "10:00-16:00" },
+      { "days": "śr-pt", "hours": "13:00-19:00" }
+    ]
+  },
+  {
+    "title": "Galeria Sztuki MILANO",
+    "address": "al. Jerzego Waszyngtona 2a, 03-910 Warszawa, Polska",
+    "coordinate": { "latitude": 52.23810520000001, "longitude": 21.0529575 },
+    "openingHours": [{ "days": "sb-nd", "hours": "12:00-16:00" }]
+  },
+  {
+    "title": "Galeria Pasaż Sztuki",
+    "address": "Romana Rubinkowskiego 15, 07-300 Ostrów Mazowiecka, Polska",
+    "coordinate": { "latitude": 52.8037746, "longitude": 21.9013549 },
+    "openingHours": [
+      { "days": "pn", "hours": "10:00-16:00" },
+      { "days": "śr-pt", "hours": "13:00-19:00" }
+    ]
+  },
+  {
+    "title": "Galeria aTAK",
+    "address": "Mazowiecka 11/38, 00-001 Warszawa, Polska",
+    "coordinate": { "latitude": 52.2374191, "longitude": 21.0129415 },
+    "openingHours": [
+      { "days": "pn-śr", "hours": "9:00-15:00" },
+      { "days": "pt-ndz", "hours": "12:00-18:00" }
+    ]
+  },
+  {
+    "title": "Galeria sztuki \" Pracownia\" - Malarstwo i rzeźba współczesna",
+    "address": "Grójecka 27/12, 02-030 Warszawa, Polska",
+    "coordinate": { "latitude": 52.2208169, "longitude": 20.9858 },
+    "openingHours": [
+      { "days": "pn-nd", "hours": "8:00-16:00" },
+      { "days": "wt-czw", "hours": "10:00-19:00" }
+    ]
+  },
+  {
+    "title": "Galeria Sztuki Wystawa",
+    "address": "Widok 22, 00-024 Warszawa, Polska",
+    "coordinate": { "latitude": 52.23134229999999, "longitude": 21.0127927 },
+    "openingHours": [
+      { "days": "wt", "hours": "9:00-17:00" },
+      { "days": "czw-nd", "hours": "12:00-20:00" }
+    ]
+  },
+  {
+    "title": "\"Galeria\" Maria H. Ruta",
+    "address": "ul. Warszawska 113A, 11 Listopada 4/I, 05-300 Mińsk Mazowiecki, Polska",
+    "coordinate": { "latitude": 52.1829379, "longitude": 21.5587307 },
+    "openingHours": [
+      { "days": "pn", "hours": "10:00-16:00" },
+      { "days": "śr-pt", "hours": "13:00-19:00" }
+    ]
+  },
+  {
+    "title": "PŁOCKA GALERIA SZTUKI",
+    "address": "Henryka Sienkiewicza 36, 09-400 Płock, Polska",
+    "coordinate": { "latitude": 52.5458313, "longitude": 19.6908623 },
+    "openingHours": [{ "days": "pn-nd", "hours": "10:00-20:00" }]
+  },
+  {
+    "title": "Galeria Sztuki Po Prawej Stronie Wisły",
+    "address": "Konopacka 15, 03-428 Warszawa, Polska",
+    "coordinate": { "latitude": 52.2594577, "longitude": 21.0384992 },
+    "openingHours": [{ "days": "sb-nd", "hours": "12:00-16:00" }]
+  },
+  {
+    "title": "Galeria Sztuki Katarzyny Napiórkowskiej: ProjectRoom",
+    "address": "Rynek Starego Miasta 19/21/21a, 00-272 Warszawa, Polska",
+    "coordinate": { "latitude": 52.2494308, "longitude": 21.0118348 },
+    "openingHours": [
+      { "days": "pon-śr", "hours": "8:30-16:30" },
+      { "days": "czw-pt", "hours": "10:00-18:00" }
+    ]
+  },
+  {
+    "title": "Galeria Sztuki Współczesnej Foksal 17, Malarstwo, Obrazy Olejne, Warszawa.",
+    "address": "Bociania 28/lok.29, 02-807 Warszawa, Polska",
+    "coordinate": { "latitude": 52.1491878, "longitude": 21.0211699 },
+    "openingHours": [{ "days": "sb-nd", "hours": "12:00-16:00" }]
+  },
+  {
+    "title": "Galeria Sztuki BP",
+    "address": "Drzeworytników 55, 01-341 Warszawa, Polska",
+    "coordinate": { "latitude": 52.2231218, "longitude": 20.9042184 },
+    "openingHours": [
+      { "days": "pon-pt", "hours": "10:00-18:00" },
+      { "days": "sob", "hours": "11:00-15:00" }
+    ]
+  },
+  {
+    "title": "Nanazenit galeria sztuki współczesnej",
+    "address": "Zwycięzców 15, 03-936 Warszawa, Polska",
+    "coordinate": { "latitude": 52.2313874, "longitude": 21.0539399 },
+    "openingHours": [
+      { "days": "wt", "hours": "9:00-17:00" },
+      { "days": "czw-nd", "hours": "12:00-20:00" }
+    ]
+  },
+  {
+    "title": "Galeria Sztuki Współczesnej ArtNation.pl",
+    "address": "Ekologiczna 17, 02-798 Warszawa, Polska",
+    "coordinate": { "latitude": 52.1294282, "longitude": 21.0568221 },
+    "openingHours": [{ "days": "pn-nd", "hours": "10:00-20:00" }]
+  },
+  {
+    "title": "Galeria Sztuki Współczesnej - Station of Art Gallery",
+    "address": "Grzybowska 12/14, 00-132 Warszawa, Polska",
+    "coordinate": { "latitude": 52.2371188, "longitude": 21.0002183 },
+    "openingHours": [{ "days": "pn-nd", "hours": "10:00-20:00" }]
+  },
+  {
+    "title": "Galeria Sztuki Katarzyny Napiórkowskiej Sp. z o.o.",
+    "address": "Świętokrzyska 32, 00-116 Warszawa, Polska",
+    "coordinate": { "latitude": 52.2342632, "longitude": 21.0025579 },
+    "openingHours": [{ "days": "sb-nd", "hours": "12:00-16:00" }]
+  },
+  {
+    "title": "Pracownia Sztuki Anna Karwowska",
+    "address": "Romualda Traugutta 6, 05-140 Serock, Polska",
+    "coordinate": { "latitude": 52.5169566, "longitude": 21.0586372 },
+    "openingHours": [
+      { "days": "wt", "hours": "9:00-17:00" },
+      { "days": "czw-nd", "hours": "12:00-20:00" }
+    ]
+  },
+  {
+    "title": "Galeria sztuki Bohema",
+    "address": "Środkowa 12, 03-430 Warszawa, Polska",
+    "coordinate": { "latitude": 52.26028960000001, "longitude": 21.0406454 },
+    "openingHours": [{ "days": "sb-nd", "hours": "12:00-16:00" }]
+  },
+  {
+    "title": "Galeria Sztuki IAXAI",
+    "address": "3 Maja 11, 05-080 Izabelin B, Polska",
+    "coordinate": { "latitude": 52.2904304, "longitude": 20.826351 },
+    "openingHours": [
+      { "days": "wt", "hours": "9:00-17:00" },
+      { "days": "czw-nd", "hours": "12:00-20:00" }
+    ]
+  }
+]
